@@ -6,8 +6,12 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
-router.get('/cool', function(req, res, next) {
-  res.send('You are so cool');
+router.get('/ifc', function(req, res, next) {
+  res.send('BEM VINDO!!.......................................(ao seu maior sonho e pesadelo)');
+});
+
+router.get('/cool/beach', function(req, res, next) {
+  res.send('Praia é uma maravilha, quando é as férias mesmo?');
 });
 
 module.exports = router;
